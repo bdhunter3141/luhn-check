@@ -1,0 +1,24 @@
+{
+  "name": "luhn-check",
+  "version": "1.0.0",
+  "description": "Will check numbers against the Luhn algorithm and return whether or not it matches",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdhunter3141/luhn-check.git"
+  },
+  "author": "Bryan Hunter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdhunter3141/luhn-check/issues"
+  },
+  "homepage": "https://github.com/bdhunter3141/luhn-check#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
