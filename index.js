@@ -1,4 +1,6 @@
-const check = function() {
+const check = function(number) {
+
+
 
 }
 
