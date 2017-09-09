@@ -23,11 +23,22 @@ const check = function(number) {
     var newNum = Number(element);
     oddNumArr.push(newNum)
   })
-  console.log(oddNumArr)
   var doubleArr = evenNumArr.map(function(x) {
     return x * 2
   })
-  console.log(doubleArr)
+  for (var i = 0; i < doubleArr.length; i++) {
+    if (doubleArr[i].toString().length > 1) {
+      var splitString = doubleArr[i].toString().split("")
+      doubleArr[i] = addNumbers(splitString[0], splitString[1])
+    } console.log(doubleArr)
+  }
+
+function addNumbers(x, y) {
+  return Number(x) + Number(y)
+}
+
+
+
   // If doubled number greater than 9, add the two numbers to itself
 //Sum all digits
   //If modulo 10 = 0
